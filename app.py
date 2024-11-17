@@ -38,14 +38,12 @@ def main():
 
     # Load decision steps from the corresponding CSV file
     file_mapping = {
-        "Project Management": "data/project_management.csv",
-        "HR Management": "data/hr_management.csv",
-        "Team Management": "data/team_management.csv",
-        "Conflict Management": "data/conflict_management.csv",
-        "Confidential Informational Management": "data/confidential_information.csv",
-        "Product Development Management": "data/product_development.csv",
-        "Research Management": "data/research_management.csv",
-        "Event Management": "data/event_management.csv"
+        "Project Management": "project_management.csv",
+        "HR Management": "hr_management.csv",
+        "Team Management": "team_management.csv",
+        "Conflict Management": "conflict_management.csv",
+        "Confidential Informational Management": "confidential_information.csv",
+        "Product Development Management": "product_development.csv"
     }
 
     # Clear history if the process selection changes
